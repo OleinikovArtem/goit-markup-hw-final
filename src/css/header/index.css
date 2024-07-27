@@ -1,0 +1,19 @@
+@import url('./nav-mobile.css');
+@import url('./nav-desktop.css');
+
+.header {
+  padding: 20px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .header .nav-desktop,
+  .header .nav-desktop + .social-links {
+    display: none;
+  }
+}

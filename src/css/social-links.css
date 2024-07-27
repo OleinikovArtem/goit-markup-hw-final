@@ -1,0 +1,21 @@
+.social-links {
+  display: flex;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.social-link {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  padding: 8px;
+  border: 1px solid rgba(18, 20, 23, 0.1);
+  border-radius: 10px;
+  transition: border ease-in-out 0.2s;
+}
+
+.social-link:hover {
+  border-color: var(--black);
+}
