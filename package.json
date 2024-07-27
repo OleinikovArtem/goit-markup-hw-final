@@ -1,0 +1,21 @@
+{
+  "name": "English excellence",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/english-excellence/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.5.2",
+    "glob": "^8.1.0"
+  },
+  "author": "TODO",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}
