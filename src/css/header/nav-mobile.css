@@ -30,6 +30,12 @@
   color: var(--white);
 
   text-align: center;
+  transform: translateX(100%);
+  transition: all ease-in-out 0.2s;
+}
+
+.is-open .nav-modal {
+  transform: translateX(0%);
 }
 
 .nav-link {
