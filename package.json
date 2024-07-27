@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/english-excellence/",
+    "build": "vite build --base=/goit-markup-hw-final",
     "preview": "vite preview"
   },
   "devDependencies": {
