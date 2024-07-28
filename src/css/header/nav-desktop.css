@@ -1,0 +1,34 @@
+@media screen and (min-width: 1280px) {
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--green);
+
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+
+    transition: width ease-in-out 0.2s;
+  }
+
+  .nav-link.active::after,
+  .nav-link:hover::after,
+  .nav-link:focus::after {
+    width: 37px;
+  }
+}

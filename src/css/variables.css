@@ -1,0 +1,13 @@
+/**
+  |============================
+  | Variables
+  |============================
+*/
+:root {
+  --black: #121417;
+  --green: #4dc274;
+  --light-green: #d4fde1;
+  --green-linear: linear-gradient(84.6deg, #4dc274 2.25%, #bee8cc 131.25%);
+  --gray: #f3f5f6;
+  --white: #ffffff;
+}
