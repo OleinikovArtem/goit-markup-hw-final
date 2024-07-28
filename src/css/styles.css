@@ -15,16 +15,21 @@
   |============================
 */
 body {
-  /* TODO: add base font styles */
+  /* TODO: update font famaly */
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
   color: var(--black);
 }
 
-button {
-  background: transparent;
-  display: inline-block;
-  padding: 0;
-  border: 0;
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+h2 span {
+  /* TODO: add green shadow */
 }
 
 .container {
@@ -33,8 +38,17 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
   .container {
     padding: 0 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
   }
 }
 
