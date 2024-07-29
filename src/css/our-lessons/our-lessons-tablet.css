@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+  :root {
+    /* Others */
+    --items: 2;
+    --col-indent: 32px;
+    --row-indent: 32px;
+  }
+
+  .container.our-lessons {
+    max-width: 704px;
+    padding: 50px 0px;
+  }
+
+  .text-container {
+    margin-bottom: 64px;
+  }
+
+  .lesson-price {
+    line-height: 1.37;
+
+    margin-bottom: 32px;
+  }
+
+  .lesson-description {
+    font-size: 16px;
+    line-height: 1.5;
+
+    margin-bottom: 32px;
+  }
+}
