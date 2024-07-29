@@ -1,0 +1,31 @@
+.btn {
+  border-radius: 12px;
+  width: 295px;
+  height: 52px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white);
+
+  background: var(--green);
+
+  transition: background-color var(--transition-time)
+      var(--transition-timing-function),
+    color var(--transition-time) var(--transition-timing-function);
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--dark-green);
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    width: 306px;
+    height: 60px;
+
+    font-size: 18px;
+    line-height: 1.56;
+  }
+}

@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1158px) {
+  :root {
+    /* Others */
+    --items: 3;
+    --col-indent: 32px;
+    --row-indent: 32px;
+  }
+
+  .container.our-lessons {
+    max-width: 1024px;
+    padding: 75px 0px;
+  }
+
+  .text-container {
+    margin-bottom: 64px;
+  }
+}

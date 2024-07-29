@@ -1,0 +1,119 @@
+.container.our-lessons {
+  max-width: 264px;
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+
+.text-container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--black);
+
+  margin-bottom: 16px;
+}
+
+.our-lessons .section-title .accent::after {
+  width: 116px;
+  height: 12px;
+  transform: translate(-50%, 50%);
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.711;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.our-lessons-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--row-indent);
+  column-gap: var(--col-indent);
+}
+
+.our-lessons-item {
+  width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
+
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  border-radius: 16px;
+  border: 1px solid var(--green);
+  background-color: var(--white);
+}
+
+.lesson-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--black);
+
+  margin-bottom: 16px;
+}
+
+.lesson-price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--black);
+
+  margin-bottom: 40px;
+}
+
+.lesson-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: var(--text-secondary);
+
+  margin-bottom: 20px;
+}
+
+.btn.leave-an-application-btn {
+  width: 100%;
+}
+
+.our-lessons-item.accent-card {
+  background-color: var(--green);
+  border: none;
+  color: white;
+
+  .lesson-title {
+    color: var(--white);
+  }
+
+  .lesson-price {
+    color: var(--white);
+  }
+
+  .lesson-description {
+    color: var(--white);
+  }
+
+  .btn {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background-color: var(--white);
+
+    color: var(--green);
+  }
+}
