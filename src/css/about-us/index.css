@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 }
 
 .about-title {
-    font-family: Manrope, sans-serif;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -25,7 +25,7 @@ body {
 }
 
 .about-description {
-    font-family: Manrope, sans-serif;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -62,7 +62,7 @@ body {
 }
 
 .about-item h3 {
-    font-family: Manrope, sans-serif;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 32px;
@@ -73,7 +73,7 @@ body {
 }
 
 .about-item p {
-    font-family: Manrope, sans-serif;
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
