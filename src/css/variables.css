@@ -4,10 +4,21 @@
   |============================
 */
 :root {
+  /* Colors */
   --black: #121417;
   --green: #4dc274;
   --light-green: #d4fde1;
+  --dark-green: #38ae5f;
+  --accent-green: #bee8cc;
   --green-linear: linear-gradient(84.6deg, #4dc274 2.25%, #bee8cc 131.25%);
   --gray: #f3f5f6;
   --white: #ffffff;
+  --text-secondary: rgba(18, 20, 23, 0.5);
+
+  /* Other */
+  --transition-time: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --items: 1;
+  --col-indent: 0px;
+  --row-indent: 20px;
 }

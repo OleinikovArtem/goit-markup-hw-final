@@ -7,7 +7,9 @@
 @import url('./reset.css');
 @import url('./variables.css');
 @import url('./header');
+@import url('./our-lessons');
 @import url('./logo.css');
+@import url('./button.css');
 @import url('./social-links.css');
 /**
   |============================
@@ -70,10 +72,28 @@ button {
 
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity var(--transition-time) var(--transition-timing-function),
+    visibility var(--transition-time) var(--transition-timing-function);
 }
 
 .is-open {
   pointer-events: auto;
   opacity: 1;
+}
+
+.section-title .accent {
+  position: relative;
+}
+
+.section-title .accent::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+  height: 20px;
+  width: 100%;
+  background-color: var(--accent-green);
+  z-index: -1;
+  border-radius: 8px;
 }
