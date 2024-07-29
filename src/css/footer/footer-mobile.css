@@ -11,16 +11,10 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo-footer {
+.logo-address-wrapper > .logo {
   color: var(--white);
-  font-weight: 700;
-  font-size: 20px;
   padding-top: 40px;
   padding-bottom: 20px;
-}
-
-.logo-highlight {
-  color: var(--green);
 }
 
 .footer-address-list {
@@ -57,27 +51,12 @@
   color: var(--white);
 }
 
-.social-list {
-  display: flex;
-  gap: 12px;
-  padding-bottom: 20px;
-}
-
-.footer-social-link {
-  display: inline-block;
-  height: 42px;
-  width: 42px;
-  padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  transition: border ease-in-out 0.2s;
-}
-
-.footer-social-icon {
+.footer-wrapper > .social-links > .social-item > .social-link > .icon {
   fill: var(--white);
-  display: inline-block;
-  width: 100%;
-  height: 100%;
+}
+
+.footer-wrapper > .social-links > .social-item > .social-link {
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .lower-footer {
