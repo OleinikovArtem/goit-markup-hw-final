@@ -9,31 +9,6 @@
   margin-bottom: 40px;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.12;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: var(--black);
-
-  margin-bottom: 16px;
-}
-
-.our-lessons .section-title .accent::after {
-  width: 116px;
-  height: 12px;
-  transform: translate(-50%, 50%);
-}
-
-.section-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.711;
-  text-align: center;
-  color: var(--text-secondary);
-}
-
 .our-lessons-list {
   display: flex;
   flex-wrap: wrap;
