@@ -1,0 +1,12 @@
+@media (min-width: 1280px) {
+  .upper-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    padding: 64px;
+  }
+
+  .lower-footer {
+    padding: 23px 128px;
+  }
+}
