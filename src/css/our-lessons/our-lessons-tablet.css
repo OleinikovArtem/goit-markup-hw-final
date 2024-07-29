@@ -15,22 +15,6 @@
     margin-bottom: 64px;
   }
 
-  .section-title {
-    font-size: 40px;
-    line-height: 1.2;
-  }
-
-  .our-lessons .section-title .accent::after {
-    width: 144px;
-    height: 20px;
-    transform: translate(-50%, 25%);
-  }
-
-  .section-text {
-    font-size: 18px;
-    line-height: 1.67;
-  }
-
   .lesson-price {
     line-height: 1.37;
 
