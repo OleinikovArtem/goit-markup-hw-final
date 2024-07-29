@@ -31,6 +31,10 @@ a {
 
 button {
   cursor: pointer;
+  background: transparent;
+  display: inline-block;
+  padding: 0;
+  border: 0;
 }
 
 img {
