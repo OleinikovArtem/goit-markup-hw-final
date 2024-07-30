@@ -1,23 +1,23 @@
 @media screen and (min-width: 1280px) {
-    .leave__container {
+    .leave-container {
       width: 1152px;
     }
   }
   
-  .leave__form {
+  .leave-form {
     display: flex;
     flex-direction: column;
     margin: 0px auto;
   }
   
   @media screen and (min-width: 1280px) {
-    .leave__form {
+    .leave-form {
       margin: 0px;
     }
   }
   
   @media screen and (max-width: 374px) {
-    .leave__title {
+    .leave-title {
       margin-bottom: 14px;
       text-align: center;
       font-size: 28px;
@@ -29,7 +29,7 @@
   }
   
   @media screen and (min-width: 375px) {
-    .leave__title {
+    .leave-title {
       margin-bottom: 14px;
       text-align: center;
       font-size: 32px;
@@ -41,7 +41,7 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__title {
+    .leave-title {
       margin: 0 auto 16px;
       font-size: 40px;
       font-weight: 700;
@@ -49,7 +49,7 @@
     }
   }
   
-  .leave__text {
+  .leave-text {
     margin: 0 auto 20px;
     width: 100%;
     max-width: 335px;
@@ -60,7 +60,7 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__text {
+    .leave-text {
       max-width: 586px;
       margin: 0 auto 64px;
       font-size: 18px;
@@ -69,14 +69,14 @@
   }
   
   @media screen and (min-width: 1280px) {
-    .leave__text {
+    .leave-text {
       max-width: 709px;
     }
   }
   
   /*  FORM INPUTS */
   
-  .leave__input-group {
+  .leave-input-group {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,12 +86,12 @@
   }
   
   @media screen and (min-width: 1280px) {
-    .leave__input-group {
+    .leave-input-group {
       margin-bottom: 32px;
     }
   }
   
-  .leave__form-input {
+  .leave-form-input {
     width: 100%;
     max-width: 335px;
     height: 50px;
@@ -104,12 +104,12 @@
     transition: border-color var(--transition-timing-function);
   }
   
-  .leave__form-input:not(.invalid):hover,
-  .leave__form-input:not(.invalid):focus {  
+  .leave-form-input:not(.invalid):hover,
+  .leave-form-input:not(.invalid):focus {  
     border-color: var(--green);
   }
   
-  .leave__form-input::placeholder {
+  .leave-form-input::placeholder {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -118,7 +118,7 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__form-input::placeholder {
+    .leave-form-input::placeholder {
       font-size: 16px;
       line-height: 1.5em;
     }
@@ -130,7 +130,7 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__form-input {
+    .leave-form-input {
       min-width: 500px;
       height: 56px;
     }
@@ -142,7 +142,7 @@
   
   /*  RADIO BTN  */
   
-  .leave__radio-group {
+  .leave-radio-group {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -152,14 +152,14 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__radio-group {
+    .leave-radio-group {
       flex-direction: row;
       gap: 16px;
       margin: 0px 0px 32px 0px;
     }
   }
   
-  .leave__radio-group-title {
+  .leave-radio-group-title {
     margin-bottom: 14px;
     font-size: 18px;
     font-weight: 600;
@@ -169,24 +169,24 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__radio-group-title {
+    .leave-radio-group-title {
       margin-bottom: 16px;
     }
   }
   
   @media screen and (min-width: 768px) {
-    .leave__radio-btn-title {
+    .leave-radio-btn-title {
       margin-bottom: 16px;
       font-size: 20px;
       line-height: 1.2;
     }
   }
   
-  .leave__radio {
+  .leave-radio {
     position: relative;
   }
   
-  .leave__radio-input {
+  .leave-radio-input {
     /* display: none; */
     position: absolute;
     width: 1px;
@@ -200,7 +200,7 @@
     overflow: hidden;
   }
   
-  .leave__radio-label {
+  .leave-radio-label {
     padding-left: 28px;
     cursor: pointer;
     font-size: 14px;
@@ -211,14 +211,14 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__radio-label {
+    .leave-radio-label {
       font-size: 18px;
       line-height: 1.33em;
       letter-spacing: -0.36px;
     }
   }
   
-  .leave__radio-label::before {
+  .leave-radio-label::before {
     content: '';
     display: block;
     width: 18px;
@@ -234,13 +234,13 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__radio-label::before {
+    .leave-radio-label::before {
       width: 20px;
       height: 20px;
     }
   }
   
-  .leave__radio-label::after {
+  .leave-radio-label::after {
     content: '';
     display: block;
     width: 10px;
@@ -257,23 +257,23 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__radio-label::after {
+    .leave-radio-label::after {
       width: 12px;
       height: 12px;
     }
   }
   
-  .leave__radio-input:checked + .leave__radio-label::before {
+  .leave-radio-input:checked + .leave-radio-label::before {
     border-color: var(--green);
   }
   
-  .leave__radio-input:checked + .leave__radio-label::after {
+  .leave-radio-input:checked + .leave-radio-label::after {
     opacity: 1;
   }
   
   /*  FORM BTN   */
   
-  .leave__form-btn {
+  .leave-form-btn {
     display: block;
     height: 52px;
     padding: 0px;
@@ -291,13 +291,13 @@
     transition: background-color var(--transition-timing-function);
   }
   
-  .leave__form-btn:hover,
-  .leave__form-btn:focus {
+  .leave-form-btn:hover,
+  .leave-form-btn:focus {
     background-color: var(--dark-green);
   }
   
   @media screen and (min-width: 768px) {
-    .leave__form-btn {
+    .leave-form-btn {
       padding: 16px 228px;
       min-width: 500px;
       height: 60px;
@@ -308,7 +308,7 @@
   
   /*  FORM POLICY  */
   
-  .leave__form-policy {
+  .leave-form-policy {
     margin: 0 auto;
     width: 100%;
     max-width: 355px;
@@ -318,26 +318,26 @@
   }
   
   @media screen and (min-width: 768px) {
-    .leave__form-policy {
+    .leave-form-policy {
       font-size: 14px;
       line-height: 1.71;
       max-width: 500px;
     }
   }
   
-  .leave__form-policy-link {
+  .leave-form-policy-link {
     text-decoration-line: underline;
     text-decoration-color: rgba(18, 20, 23, 0.5);
   }
   
   /*  ADDITIONAL WRAPPER  */
   
-  .leave__wrapper {
+  .leave-wrapper {
     display: flex;
   }
   
   @media screen and (min-width: 1280px) {
-    .leave__wrapper {
+    .leave-wrapper {
       display: flex;
       justify-content: space-between;
     }
@@ -346,13 +346,13 @@
   /*  DESKTOP IMAGRE CARD  */
   
   @media screen and (max-width: 1280px) {
-    .leave__card-wrapper {
+    .leave-card-wrapper {
       display: none;
     }
   }
   
   @media screen and (min-width: 1280px) {
-    .leave__card-wrapper {
+    .leave-card-wrapper {
       display: flex;
       flex-direction: column;
       padding: 0px 20px 40px 20px;
@@ -370,14 +370,14 @@
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
     screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px) {
-    .leave__card-wrapper {
+    .leave-card-wrapper {
       background-image: url('../../img/leave-app-2x.png');
       background-size: 492px;
       background-position: top;
     }
   }
   
-  .leave__card-big-text {
+  .leave-card-big-text {
     margin-bottom: 8px;
     text-align: center;
     font-size: 40px;
@@ -388,7 +388,7 @@
     color: var(--white);
   }
   
-  .leave__card-text {
+  .leave-card-text {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
