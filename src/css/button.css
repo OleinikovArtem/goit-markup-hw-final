@@ -20,6 +20,12 @@
   background: var(--dark-green);
 }
 
+a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 768px) {
   .btn {
     width: 306px;

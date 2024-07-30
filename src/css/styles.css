@@ -6,12 +6,15 @@
 */
 @import url('./reset.css');
 @import url('./variables.css');
-@import url('./header');
-@import url('./our-lessons');
+
 @import url('./logo.css');
 @import url('./button.css');
 @import url('./social-links.css');
 @import url('./leave-app/leave.css');
+
+@import url('./header');
+@import url('./our-lessons');
+@import url('./footer');
 
 /**
   |============================
@@ -28,6 +31,9 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: var(--black);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 button {
