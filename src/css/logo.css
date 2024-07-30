@@ -1,5 +1,7 @@
 .logo {
+  display: block;
   font-size: 20px;
   line-height: 27px;
   font-weight: bold;
+  cursor: pointer;
 }
