@@ -15,8 +15,8 @@ body {
     padding: 50px 0;
 }
 
-.about-title {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+.section-title {
+    font-family: Manrope, Avenir, Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -25,7 +25,7 @@ body {
 }
 
 .about-description {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Manrope, Avenir, Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -62,7 +62,7 @@ body {
 }
 
 .about-item h3 {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Manrope, Avenir, Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 32px;
@@ -73,7 +73,7 @@ body {
 }
 
 .about-item p {
-    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-family: Manrope, Avenir, Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -96,7 +96,6 @@ body {
     top: 0;
     left: 0;
     border-radius: 30px 0 0 0;
-    z-index: 1;
 }
 
 .memoji-image {
@@ -107,5 +106,35 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 999px 0 0 0;
-    z-index: 2;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+    .about-list {
+        width: 100%;
+    }
+
+    .about-item {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .about-image {
+        width: 254px;
+        height: 211px;
+        margin: 20px auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .about-image {
+        width: 254px;
+        height: 211px;
+        margin: 20px auto 0;
+    }
 }
