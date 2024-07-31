@@ -51,11 +51,8 @@
   color: var(--white);
 }
 
-.footer-wrapper > .social-links > .social-item > .social-link > .icon {
-  fill: var(--white);
-}
-
-.footer-wrapper > .social-links > .social-item > .social-link {
+.footer .social-link {
+  color: var(--white);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 

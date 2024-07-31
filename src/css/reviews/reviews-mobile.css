@@ -1,0 +1,62 @@
+.container.reviews {
+  max-width: 264px;
+  padding: 40px 0px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.reviews-list {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-list > *:nth-child(n + 2) {
+  display: none;
+}
+
+.review-item {
+  background-color: var(--gray);
+  border-radius: 30px;
+  padding: 20px;
+  width: 335px;
+}
+
+.review-author-container {
+  display: flex;
+  gap: 8px;
+  background-color: var(--green);
+  border-radius: 15px;
+  padding: 14px;
+  align-items: center;
+}
+
+.review-author-img {
+  border-radius: 50%;
+}
+
+.review-author-name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.review-author-name {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.review-author-student {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.review-text {
+  margin: 20px 14px 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.71;
+}

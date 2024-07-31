@@ -13,7 +13,9 @@
 @import url('./leave-app/leave.css');
 
 @import url('./header');
+@import url('./about-us');
 @import url('./our-lessons');
+@import url('./reviews');
 @import url('./footer');
 
 /**
