@@ -1,0 +1,35 @@
+@media only screen and (min-width: 768px) {
+  .container.reviews {
+    max-width: 704px;
+    padding: 50px 0px;
+    padding-bottom: 100px;
+  }
+
+  .reviews-list {
+    gap: 32px;
+  }
+
+  .reviews-list > *:nth-child(n + 2) {
+    display: block;
+  }
+
+  .reviews-list > *:nth-child(n + 3) {
+    display: none;
+  }
+
+  .review-item {
+    padding: 32px 16px;
+    max-width: 336px;
+  }
+
+  .review-author-container {
+    padding: 14px 16px;
+  }
+
+  .review-text {
+    margin: 32px 16px 0;
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
