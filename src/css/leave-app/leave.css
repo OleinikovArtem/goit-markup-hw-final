@@ -140,7 +140,7 @@
     }
   }
   
-  /*  RADIO BTN  */
+  /*  RADIO BUTTON  */
   
   .leave-radio-group {
     display: flex;
@@ -187,7 +187,6 @@
   }
   
   .leave-radio-input {
-    /* display: none; */
     position: absolute;
     width: 1px;
     height: 1px;
@@ -271,7 +270,7 @@
     opacity: 1;
   }
   
-  /*  FORM BTN   */
+  /*  FORM BUTTON   */
   
   .leave-form-btn {
     display: block;
