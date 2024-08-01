@@ -3,20 +3,20 @@
   border-radius: 16px;
   width: 335px;
   height: 737px;
-  background: linear-gradient(80deg, var(green) 0%, var(--light-green) 100%);
+  background: linear-gradient(80deg, var(--green) 0%, var(--light-green) 100%);
   padding: 20px;
   overflow: hidden;
 }
 
-.leave-title {
+.proposal-to-leave-title {
   font-weight: 700;
   font-size: 38px;
   line-height: 1.05263;
-  color: #fff;
+  color: var(--white);
   margin-top: 20px;
 }
 
-h1 .language {
+.proposal-to-leave-title .language {
   color: var(--accent-green);
 }
 
