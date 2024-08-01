@@ -8,7 +8,7 @@
     margin: 0 auto;
   }
 
-  h1 {
+  .leave-title {
     font-size: 60px;
     line-height: 1.16667;
   }
@@ -95,7 +95,7 @@
   }
 
   .rotate-3 {
-    background: #d4fde1;
+    background: var(--light-green);
 
     transform: rotate(-11deg);
     left: 55px;

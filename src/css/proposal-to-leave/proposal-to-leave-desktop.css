@@ -61,7 +61,7 @@
   }
 
   .rotate-2 {
-    background: #d4fde1;
+    background: var(--light-green);
     transform: rotate(-8deg);
     width: calc(1049px - 90px);
     height: 462px;
@@ -75,5 +75,17 @@
     height: 401px;
     left: 42px;
     top: 38px;
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .image-card {
+    background-image: url('../../img/proposal-to-leave/books-stack@2x.png');
+  }
+}
+
+@media (min-resolution: 384dpi) {
+  .image-card {
+    background-image: url('../../img/proposal-to-leave/books-stack@3x.png');
   }
 }

@@ -3,13 +3,12 @@
   border-radius: 16px;
   width: 335px;
   height: 737px;
-  background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+  background: linear-gradient(80deg, var(green) 0%, var(--light-green) 100%);
   padding: 20px;
   overflow: hidden;
 }
 
-h1 {
-  font-family: 'Manrope', sans-serif;
+.leave-title {
   font-weight: 700;
   font-size: 38px;
   line-height: 1.05263;
@@ -18,7 +17,7 @@ h1 {
 }
 
 h1 .language {
-  color: #bee8cc;
+  color: var(--accent-green);
 }
 
 .card-wrapper {
@@ -36,7 +35,7 @@ h1 .language {
   border-radius: 16px;
   width: 294px;
   height: 407px;
-  background: #fff;
+  background: var(--white);
   padding: 20px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transform-origin: center bottom;
@@ -44,7 +43,6 @@ h1 .language {
 }
 
 .card-title {
-  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
@@ -72,12 +70,11 @@ h1 .language {
 }
 
 .card-item p {
-  font-family: 'Manrope', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.42857;
   letter-spacing: -0.02em;
-  color: #121417;
+  color: var(--black);
 }
 
 ul {
@@ -97,9 +94,8 @@ li {
   justify-content: center;
   padding: 14px;
   border-radius: 12px;
-  background: #4dc274;
-  color: #fff;
-  font-family: 'Manrope', sans-serif;
+  background: var(--green);
+  color: var(--white);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71429;
@@ -134,7 +130,7 @@ li {
 }
 
 .rotate-3 {
-  background: #d4fde1;
+  background: var(--light-green);
   transform: rotate(9deg);
   top: -3px;
   left: -35px;
