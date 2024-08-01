@@ -53,11 +53,12 @@ button {
   border: 0;
 }
 
+
 .container {
   width: 100%;
   max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 80px;
 }
 
 .icon {
@@ -129,7 +130,7 @@ button {
   border-radius: 8px;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   body {
     font-size: 16px;
   }
@@ -137,6 +138,7 @@ button {
   .container {
     max-width: 768px;
     padding: 0 32px;
+    margin-top: 100px;
   }
 
   .section-title {
@@ -160,9 +162,19 @@ button {
     max-width: 1054px;
     padding: 0 15px;
     margin: 0 auto;
+    margin-top: 150px;
   }
 
   .section-title .accent::after {
     height: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+  .container {
+      /* padding: 50px 0; */
+      padding: 0 20px;
+      /* margin-top: 80px; */
   }
 }

@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1280px) {
+  .container.container-about-us {
+    margin-top: 96px;
+  }
+  
   .about-content {
     display: flex;
   }
