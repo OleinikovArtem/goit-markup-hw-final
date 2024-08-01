@@ -10,12 +10,15 @@
 @import url('./logo.css');
 @import url('./button.css');
 @import url('./social-links.css');
-@import url('./leave-app/leave.css');
+
 
 @import url('./header');
 @import url('./about-us');
 @import url('./our-lessons');
+@import url('./teachers/');
+@import url('./leave-app/leave.css');
 @import url('./reviews');
+
 @import url('./footer');
 
 /**

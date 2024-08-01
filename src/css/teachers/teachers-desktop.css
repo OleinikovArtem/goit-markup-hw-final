@@ -1,0 +1,9 @@
+@media (min-width: 1280px) {
+    .teachers-list {
+        justify-content: space-around;
+    }
+
+    .teacher-card {
+        width: 200px;
+    }
+}
