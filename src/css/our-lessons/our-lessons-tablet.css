@@ -6,11 +6,6 @@
     --row-indent: 32px;
   }
 
-  .container.our-lessons {
-    max-width: 704px;
-    padding: 50px 0px;
-  }
-
   .our-lessons-item {
     padding: 32px 16px;
   }
