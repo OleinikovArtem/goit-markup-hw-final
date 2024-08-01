@@ -1,5 +1,4 @@
 .hero {
-  
   position: relative;
   display: flex;
   flex-direction: column;
@@ -18,10 +17,6 @@
   background-size: cover;
   
   border-radius: 20px;
-}
-
-.container.container-hero {
-  margin-top: 8px;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -94,14 +89,10 @@
   fill: #fff;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
-  }
-
-  .container.container-hero {
-    margin-top: 32px;
   }
 
   .hero {
@@ -150,14 +141,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .container.container-hero {
     max-width: 1152px;
     padding: 0 64px;
+    margin-top: 0px;
   }
 
-  .container.container-hero {
-    margin-top: 16px;
-  }
 
   .hero {
     background-image: var(--dark-linear), url('../../img/hero/hero-desk@1x.jpg');
