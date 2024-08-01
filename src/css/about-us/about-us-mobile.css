@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .about-list {
+        width: 100%;
+    }
+
+    .about-item {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .about-image {
+        width: 254px;
+        height: 211px;
+        margin: 20px auto 0;
+    }
+}

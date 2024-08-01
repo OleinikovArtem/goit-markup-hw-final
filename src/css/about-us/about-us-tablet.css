@@ -1,0 +1,19 @@
+@media only screen and (min-width: 768px) {
+        :root {
+            /* Others */
+            --items: 2;
+            --col-indent: 32px;
+            --row-indent: 32px;
+        }
+        
+    .about-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .about-image {
+        width: 254px;
+        height: 211px;
+        margin: 20px auto 0;
+    }
+}
