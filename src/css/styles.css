@@ -13,6 +13,7 @@
 
 
 @import url('./header');
+@import url('./hero/hero.css');
 @import url('./about-us');
 @import url('./our-lessons');
 @import url('./teachers/');
