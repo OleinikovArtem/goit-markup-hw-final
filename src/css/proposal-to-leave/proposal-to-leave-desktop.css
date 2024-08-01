@@ -1,0 +1,91 @@
+/* Desktop styles */
+@media (min-width: 1158px) {
+  .container.proposal-to-leave {
+    width: calc(1152px - 20px);
+    padding: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .card-wrapper {
+    gap: -140px;
+    margin-top: 80px;
+    width: calc(1104px - 20px);
+    height: 604px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .outer-card {
+    border-radius: 30px;
+    width: calc(1023px - 80px);
+    height: 470px;
+    padding: 40px;
+    transform-origin: center bottom;
+  }
+
+  .card-title {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  .card-content {
+    width: calc(653px - 20px);
+    margin-top: 40px;
+  }
+
+  .icon-wrapper {
+    width: 28px;
+    height: 28px;
+  }
+
+  .card-item p {
+    font-size: 20px;
+  }
+
+  .leave-app-btn {
+    padding: 16px 64px;
+    width: 306px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .image-card {
+    top: 118px;
+    right: 65px;
+    width: 214px;
+    height: 263px;
+    z-index: 3;
+    display: block;
+  }
+
+  .rotate-2 {
+    background: var(--light-green);
+    transform: rotate(-8deg);
+    width: calc(1049px - 90px);
+    height: 462px;
+    left: 78px;
+  }
+
+  .rotate-3 {
+    background: rgba(255, 255, 255, 0.5);
+    transform: rotate(11deg);
+    width: calc(1010px - 80px);
+    height: 401px;
+    left: 42px;
+    top: 38px;
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .image-card {
+    background-image: url('../../img/proposal-to-leave/books-stack@2x.png');
+  }
+}
+
+@media (min-resolution: 384dpi) {
+  .image-card {
+    background-image: url('../../img/proposal-to-leave/books-stack@3x.png');
+  }
+}
