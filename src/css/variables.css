@@ -11,6 +11,7 @@
   --dark-green: #38ae5f;
   --accent-green: #bee8cc;
   --green-linear: linear-gradient(84.6deg, #4dc274 2.25%, #bee8cc 131.25%);
+  --dark-linear: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
   --gray: #f3f5f6;
   --white: #ffffff;
   --text-secondary: rgba(18, 20, 23, 0.5);
