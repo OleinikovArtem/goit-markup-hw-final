@@ -1,7 +1,7 @@
 /* Mobile styles */
-.proposal-to-leave {
+.container.proposal-to-leave {
   border-radius: 16px;
-  background: linear-gradient(80deg, var(--green) 0%, var(--light-green) 100%);
+  background: linear-gradient(80deg, var(--green) 0%, var(--accent-green) 150%);
   padding: 40px 20px;
   overflow: hidden;
 }
@@ -9,9 +9,10 @@
 .proposal-to-leave-title {
   font-weight: 700;
   font-size: 38px;
-  line-height: 40px;
+  line-height: 1.05;
   color: var(--white);
-  margin-bottom: 40px;
+
+  margin-bottom: 80px;
 }
 
 .proposal-to-leave-title .language {
@@ -19,6 +20,8 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   position: relative;
   border-radius: 16px;
   padding: 40px 20px;
@@ -32,6 +35,8 @@
   background: var(--white);
   transform-origin: center bottom;
   transform-style: preserve-3d;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .outer-card::after,
@@ -46,13 +51,13 @@
 }
 
 .outer-card::after {
-  transform: rotateZ(20deg) translateZ(-1px);
+  transform: rotateZ(15deg) translateZ(-1px);
   z-index: 2;
   background: rgba(255, 255, 255, 0.5);
 }
 
 .outer-card::before {
-  transform: rotateZ(-20deg) translateZ(-1px);
+  transform: rotateZ(-15deg) translateZ(-1px);
   z-index: 1;
   background: rgba(212, 253, 225, 1);
 }
@@ -65,45 +70,47 @@
   margin-bottom: 20px;
 }
 
-.card-content {
+.proposal-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  margin-bottom: 20px;
 }
 
-.card-item {
+.proposal-item {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.card-item p {
+.proposal-item-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 1.43;
   letter-spacing: -0.02em;
   color: var(--black);
 }
 
-.icon-wrapper {
-  width: 20px;
-  min-width: 20px;
-  height: 20px;
-}
-
-.leave-app-btn {
+.proposal-item-icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px;
-  border-radius: 12px;
-  background: var(--green);
-  color: var(--white);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.71429;
-  margin-top: 20px;
+  flex-shrink: 0;
+
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  background-color: var(--green);
+  border-radius: 50%;
+}
+
+.proposal-item-icon {
   width: 100%;
+  height: 100%;
+
+  fill: transparent;
+  stroke: var(--white);
 }
 
 .card-img {
