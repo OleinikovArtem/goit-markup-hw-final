@@ -30,7 +30,7 @@
 }
 
 /* Медіа-запити для мобільних пристроїв */
-@media (max-width: 374px) {
+@media screen and (max-width: 374px) {
   .teachers-list {
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .teachers-list {
     flex-direction: column;
     align-items: center;

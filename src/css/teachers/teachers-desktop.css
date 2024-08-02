@@ -1,4 +1,4 @@
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .teachers-list {
     flex-wrap: nowrap;
     justify-content: space-between;
