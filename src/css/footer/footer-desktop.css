@@ -2,7 +2,6 @@
   .upper-footer {
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
     padding: 64px;
   }
 
