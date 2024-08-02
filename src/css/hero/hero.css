@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-end;
 
-  min-height: calc(100dvh - 85px);
+  min-height: 709px;
   padding: 72px 20px;
   /* margin: 8 auto 0; */
 
@@ -102,7 +102,7 @@
   .hero {
     justify-content: center;
     padding: 72px 32px 0;
-    height: 704px;
+    height: 857px;
     min-height: auto;
     background-image: var(--dark-linear), url('../../img/hero/hero-tab@1x.jpg');
   }

@@ -1,6 +1,6 @@
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
-  .container.proposal-to-leave {
+  .proposal-to-leave .container  {
     max-width: 704px;
     border-radius: 30px;
     overflow: visible;
