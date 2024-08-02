@@ -113,6 +113,8 @@ section {
   text-align: center;
   color: var(--text-secondary);
   margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-title .accent {
