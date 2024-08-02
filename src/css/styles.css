@@ -11,7 +11,6 @@
 @import url('./button.css');
 @import url('./social-links.css');
 
-
 @import url('./header');
 @import url('./hero/hero.css');
 @import url('./about-us');
@@ -34,7 +33,7 @@ html {
 
 body {
   /* TODO: update font famaly */
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
