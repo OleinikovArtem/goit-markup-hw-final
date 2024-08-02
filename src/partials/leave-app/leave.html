@@ -1,6 +1,6 @@
 <section class="leave-section" id="leave_an_application">
   <div class="container">
-    <h2 class="section-title" id="contact-us">
+    <h2 class="section-title" id="contact_us">
       Leave an <span class="accent">application</span>
     </h2>
     <p class="section-text leave-text">
@@ -25,18 +25,23 @@
             type="text"
             name="user-name"
             placeholder="Name"
+            required
           />
           <input
             class="leave-form-input"
             type="email"
             name="user-email"
             placeholder="Email"
+            required
           />
           <input
             class="leave-form-input"
             type="tel"
             name="user-phone"
             placeholder="Phone"
+            pattern="[0-9]{10}" 
+            title="Телефон повинен містити 10 цифр."
+            required
           />
           <textarea
             class="leave-form-input teaxtarea-input"
