@@ -10,12 +10,12 @@
 
   color: var(--white);;
   text-align: center;
-  
+
   background-image: var(--dark-linear), url('../../img/hero/hero-mob@1x.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
   border-radius: 20px;
 }
 
@@ -96,7 +96,6 @@
 @media only screen and (min-width: 768px) {
   .container.container-hero {
     max-width: 768px;
-    /* padding: 0 32px; */
     margin-top: 32px;
   }
 
