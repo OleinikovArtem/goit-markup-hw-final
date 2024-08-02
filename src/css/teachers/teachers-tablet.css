@@ -1,9 +1,12 @@
 @media (min-width: 768px) and (max-width: 1279px) {
-    .teachers-list {
-        justify-content: space-between;
-    }
+  .teachers-list {
+    justify-content: space-between;
+    gap: 32px;
+  }
 
-    .teacher-card {
-        width: 45%;
-    }
+  .teacher-card {
+    max-width: 50%;
+    width: 272px;
+    margin-bottom: 0;
+  }
 }
