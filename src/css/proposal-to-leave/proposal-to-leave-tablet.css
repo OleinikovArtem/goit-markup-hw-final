@@ -1,16 +1,15 @@
 /* Tablet styles */
 @media (min-width: 768px) {
-  .container.proposal-to-leave {
-    width: 704px;
-    /* height: 950px; */
-    /* padding: 40px; */
+  .proposal-to-leave {
     overflow: visible;
-    /* margin: 0 auto; */
+    padding: 64px 20px;
   }
 
   .proposal-to-leave-title {
     font-size: 60px;
-    line-height: 1.16667;
+    line-height: 70px;
+    padding: 0 12px;
+    margin-bottom: 32px;
   }
 
   .card-wrapper {
@@ -21,27 +20,48 @@
     transform: translateX(-50%);
   }
 
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 64px 30px;
+  }
+
   .outer-card {
-    position: relative;
     border-radius: 30px;
-    width: 667px;
-    /* height: 499px; */
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transform-origin: center bottom;
-    z-index: 3;
+  }
+
+
+  .outer-card::after,
+  .outer-card::before {
+    border-radius: 30px;
+  }
+
+  .outer-card::after {
+    transform: rotateZ(10deg) translateZ(-1px);
+  }
+  
+  .outer-card::before {
+    transform: rotateZ(-10deg) translateZ(-1px);
   }
 
   .card-title {
+    width: 100%;
     font-size: 40px;
     line-height: 1.2;
-    margin-top: 50px;
+    margin-bottom: 32px;
   }
 
-  .card-content {
-    width: 450px;
-    margin-top: 30px;
+  .cart-description {
+    width: 451px;
+  }
+
+  .card-img {
+    display: block;
+    width: 214px;
+    height: 263px;
+    margin-right: -220px;
+    margin-top: auto;
+    transform: translateX(30px);
   }
 
   .icon-wrapper {
@@ -76,29 +96,5 @@
     background-image: url('../../img/proposal-to-leave/books-stack.png');
     z-index: 3;
     display: block;
-  }
-
-  .rotate-card {
-    position: absolute;
-    border-radius: 30px;
-    width: 667px;
-    height: 499px;
-    top: 0;
-    left: 0;
-    transform-origin: center bottom;
-    z-index: 2;
-  }
-
-  .rotate-2 {
-    background: rgba(255, 255, 255, 0.5);
-    transform: rotate(10deg);
-    left: -40px;
-  }
-
-  .rotate-3 {
-    background: var(--light-green);
-
-    transform: rotate(-11deg);
-    left: 55px;
   }
 }
