@@ -6,7 +6,7 @@
 
   min-height: calc(100dvh - 85px);
   padding: 72px 20px;
-  margin: 8 auto 0;
+  /* margin: 8 auto 0; */
 
   color: var(--white);;
   text-align: center;
@@ -25,6 +25,10 @@
   .hero {
     background-image: var(--dark-linear), url(../../img/hero/hero-mob@2x.jpg);
   }
+}
+
+.container.container-hero {
+  margin-top: 8px;
 }
 
 .hero-title {
@@ -90,9 +94,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
+  .container.container-hero {
     max-width: 768px;
-    padding: 0 32px;
+    /* padding: 0 32px; */
+    margin-top: 32px;
   }
 
   .hero {
