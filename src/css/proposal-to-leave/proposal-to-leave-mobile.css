@@ -4,7 +4,7 @@
   width: 335px;
   height: 737px;
   background: linear-gradient(80deg, var(--green) 0%, var(--light-green) 100%);
-  padding: 20px;
+  padding: 20px; /* TODO */
   overflow: hidden;
 }
 

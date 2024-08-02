@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1158px) {
   .container.reviews {
     max-width: 1024px;
-    padding: 75px 0px;
-    padding-bottom: 150px;
+    /* padding: 75px 0px;
+    padding-bottom: 150px; */
   }
 
   .reviews-list > *:nth-child(n + 2) {

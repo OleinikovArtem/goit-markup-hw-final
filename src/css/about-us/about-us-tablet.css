@@ -1,9 +1,4 @@
-
 @media only screen and (min-width: 768px) {
-	.about-content {
-	  padding-top: 64px;
-	}
-    
   .about-list {
     flex-wrap: wrap;
 		gap: 32px;

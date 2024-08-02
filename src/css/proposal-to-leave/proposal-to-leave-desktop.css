@@ -2,9 +2,9 @@
 @media (min-width: 1280px) {
   .container.proposal-to-leave {
     width: calc(1152px - 20px);
-    padding: 60px;
+    /* padding: 60px; */
     overflow: hidden;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .card-wrapper {
@@ -32,11 +32,6 @@
   .card-content {
     width: calc(653px - 20px);
     margin-top: 40px;
-  }
-
-  .icon-wrapper {
-    width: 28px;
-    height: 28px;
   }
 
   .card-item p {

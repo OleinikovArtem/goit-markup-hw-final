@@ -7,7 +7,3 @@ const OPEN_CSS_CLASS = 'is-open'
 
 $mobileNavOpen.onclick = () => $mobileNavModal.classList.add(OPEN_CSS_CLASS)
 $mobileNavClose.onclick = () => $mobileNavModal.classList.remove(OPEN_CSS_CLASS)
-
-document.querySelector('.leave-app-btn').addEventListener('click', function() {
-    document.getElementById('contact-us').scrollIntoView({ behavior: 'smooth' });
-});

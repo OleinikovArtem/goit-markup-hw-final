@@ -3,9 +3,9 @@
   .container.proposal-to-leave {
     width: 704px;
     height: 950px;
-    padding: 40px;
+    /* padding: 40px; */
     overflow: visible;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .proposal-to-leave-title {
@@ -46,6 +46,7 @@
 
   .icon-wrapper {
     width: 28px;
+    min-width: 28px;
     height: 28px;
   }
 
