@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
   .teachers-list {
     justify-content: space-between;
     gap: 32px;
