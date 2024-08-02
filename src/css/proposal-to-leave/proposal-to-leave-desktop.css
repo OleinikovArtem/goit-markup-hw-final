@@ -1,5 +1,5 @@
 /* Desktop styles */
-@media (min-width: 1158px) {
+@media (min-width: 1280px) {
   .container.proposal-to-leave {
     width: calc(1152px - 20px);
     /* padding: 60px; */
