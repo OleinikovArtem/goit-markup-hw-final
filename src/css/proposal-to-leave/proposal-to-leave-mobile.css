@@ -1,45 +1,60 @@
 /* Mobile styles */
-.container.proposal-to-leave {
+.proposal-to-leave {
   border-radius: 16px;
-  width: 335px;
-  /* height: 737px; */
   background: linear-gradient(80deg, var(--green) 0%, var(--light-green) 100%);
-  padding: 20px; /* TODO */
+  padding: 40px 20px;
   overflow: hidden;
 }
 
 .proposal-to-leave-title {
   font-weight: 700;
   font-size: 38px;
-  line-height: 1.05263;
+  line-height: 40px;
   color: var(--white);
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .proposal-to-leave-title .language {
   color: var(--accent-green);
 }
 
-.card-wrapper {
+.card {
   position: relative;
-  display: flex;
-  justify-content: center;
-  gap: -100px;
-  z-index: 2;
-  transform-style: preserve-3d;
-  margin-top: 40px;
+  border-radius: 16px;
+  padding: 40px 20px;
+  z-index: 3;
 }
 
 .outer-card {
   position: relative;
   border-radius: 16px;
-  width: 294px;
-  height: 407px;
+  color: var(--black);
   background: var(--white);
-  padding: 20px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transform-origin: center bottom;
-  z-index: 3;
+  transform-style: preserve-3d;
+}
+
+.outer-card::after,
+.outer-card::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.outer-card::after {
+  transform: rotateZ(20deg) translateZ(-1px);
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.outer-card::before {
+  transform: rotateZ(-20deg) translateZ(-1px);
+  z-index: 1;
+  background: rgba(212, 253, 225, 1);
 }
 
 .card-title {
@@ -47,26 +62,19 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  color: #121417;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 20px;
 }
 
 .card-item {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.icon-wrapper {
-  width: 20px;
-  height: 20px;
 }
 
 .card-item p {
@@ -77,10 +85,10 @@
   color: var(--black);
 }
 
-li {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.icon-wrapper {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
 }
 
 .leave-app-btn {
@@ -98,35 +106,6 @@ li {
   width: 100%;
 }
 
-.image-card {
-  width: 294px;
-  height: 407px;
-  background-size: cover;
-  background-position: center;
+.card-img {
   display: none;
-}
-
-.rotate-card {
-  position: absolute;
-  border-radius: 16px;
-  width: 294px;
-  height: 407px;
-  top: 0;
-  left: 0;
-  transform-origin: center bottom;
-  z-index: 2;
-}
-
-.rotate-2 {
-  background: rgba(255, 255, 255, 0.5);
-  transform: rotate(-11deg);
-  top: -3px;
-  left: 35px;
-}
-
-.rotate-3 {
-  background: var(--light-green);
-  transform: rotate(9deg);
-  top: -3px;
-  left: -35px;
 }
