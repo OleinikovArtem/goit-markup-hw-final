@@ -27,8 +27,8 @@
   }
 }
 
-.container.container-hero {
-  margin-top: 8px;
+.container-hero {
+  padding-top: 8px;
 }
 
 .hero-title {
@@ -94,16 +94,16 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container.container-hero {
+  .container-hero .container {
     max-width: 768px;
-    margin-top: 32px;
+    padding-top: 32px;
   }
 
   .hero {
     justify-content: center;
-    padding: 0 32px;
-    margin-top: 32px;
-    min-height: calc(100dvh - 120px);
+    padding: 72px 32px 0;
+    height: 704px;
+    min-height: auto;
     background-image: var(--dark-linear), url('../../img/hero/hero-tab@1x.jpg');
   }
 
@@ -145,17 +145,16 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container.container-hero {
+  .container-hero .container {
     max-width: 1152px;
     padding: 0 64px;
     margin-top: 0px;
   }
 
-
   .hero {
     background-image: var(--dark-linear), url('../../img/hero/hero-desk@1x.jpg');
-    margin-top: 16px;
     padding: 0 64px;
+    height: 629px;
   }
 
   .hero-title {

@@ -1,5 +1,5 @@
 /* Mobile styles */
-.container.proposal-to-leave {
+.proposal-to-leave .container {
   border-radius: 16px;
   background: linear-gradient(80deg, var(--green) 0%, var(--accent-green) 150%);
   padding: 40px 20px;
