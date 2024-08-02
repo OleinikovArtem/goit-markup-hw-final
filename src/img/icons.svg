@@ -29,22 +29,9 @@
       <line x1="17.1522" y1="12.9242" x2="38.5" y2="12.9242" stroke-width="3" stroke-linecap="round"/>
     </symbol>
 
-
     <symbol viewBox="0 0 32 32" id="icon-exit">
       <path d="M24 8L8 24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M8 8L24 24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>
-    
-    <symbol id="icon-check" viewBox="0 0 20 20">
-      <g clip-path="url(#clip0_51_39)">
-        <circle cx="10" cy="10" r="10" fill="#4DC274" />
-        <path d="M14 7L8.5 13L6 10.2727" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-      <defs>
-        <clipPath id="clip0_51_39">
-          <rect width="20" height="20" fill="white" />
-        </clipPath>
-      </defs>
     </symbol>
 
     <symbol id="icon-checkmark" viewBox="0 0 20 20">
