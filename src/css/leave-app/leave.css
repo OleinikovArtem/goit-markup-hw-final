@@ -216,6 +216,7 @@
   .leave-radio-label::before {
     width: 20px;
     height: 20px;
+    top: 0;
   }
 }
 
@@ -239,6 +240,7 @@
   .leave-radio-label::after {
     width: 12px;
     height: 12px;
+    top: 4px;
   }
 }
 
