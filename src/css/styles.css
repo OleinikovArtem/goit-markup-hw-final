@@ -44,6 +44,11 @@ body {
   box-sizing: border-box;
 }
 
+main {
+  overflow: hidden;
+  max-width: 100%;
+}
+
 button {
   background: transparent;
   display: inline-block;
