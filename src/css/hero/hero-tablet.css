@@ -4,20 +4,16 @@
   }
 
   .hero {
-    --gradient: linear-gradient(
-      114deg,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0) 60%
-    );
+    --gradient: linear-gradient(114deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 60%);
 
     padding: 260px 32px 295px 32px;
     border-radius: 30px;
 
     background-image: var(--gradient), image-set(url('../../img/hero/hero-tablet.jpg'));
-    background-image: var(--gradient), image-set(
-      url('../../img/hero/hero-tablet.jpg') 1x,
-      url('../../img/hero/hero-tablet@2x.jpg') 2x,
-    );
+    background: var(--gradient),
+      -webkit-image-set(url('../../img/hero/hero-tablet.jpg') 1x, url('../../img/hero/hero-tablet@2x.jpg') 2x);
+    background: var(--gradient),
+      image-set(url('../../img/hero/hero-tablet.jpg') 1x, url('../../img/hero/hero-tablet@2x.jpg') 2x);
   }
 
   .hero-title {
