@@ -139,6 +139,17 @@ section {
   border-radius: 8px;
 }
 
+.link {
+  /* color: var(--white); */
+
+  transition: color var(--transition-time) var(--transition-timing-function);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--green);
+}
+
 @media only screen and (min-width: 768px) {
   body {
     font-size: 16px;
