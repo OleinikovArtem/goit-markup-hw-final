@@ -3,11 +3,7 @@
 }
 
 .hero {
-  --gradient: linear-gradient(
-    57deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 50%
-  );
+  --gradient: linear-gradient(57deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 50%);
 
   position: relative;
   display: flex;
@@ -18,12 +14,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
   background-image: var(--gradient), url('../../img/hero/hero-mobile.jpg');
-  background-image: var(--gradient), image-set(
-    url('../../img/hero/hero-mobile.jpg') 1x,
-    url('../../img/hero/hero-mobile@2x.jpg') 2x,
-  );
+  background-image: var(--gradient),
+    -webkit-image-set(url('../../img/hero/hero-mobile.jpg') 1x, url('../../img/hero/hero-mobile@2x.jpg') 2x);
 }
 
 .hero-title {
