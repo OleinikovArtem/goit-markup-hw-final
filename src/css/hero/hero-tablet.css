@@ -16,22 +16,9 @@
     background-image: var(--gradient), url('../../img/hero/hero-tablet.jpg');
   }
 
-  @supports (background-image: url('../img/hero/hero-tablet.webp')) {
-    .hero {
-      background-image: var(--gradient), url('../img/hero/hero-tablet.webp');
-    }
-  }
-
   @media only screen and (min-resolution: 192dpi) {
     .hero {
       background-image: var(--gradient), url('../img/hero/hero-tablet@2x.jpg');
-    }
-
-    @supports (background-image: url('../img/hero/hero-tablet@2x.webp')) {
-      .hero {
-        background-image: var(--gradient),
-          url('../img/hero/hero-tablet@2x.webp');
-      }
     }
   }
 
