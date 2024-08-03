@@ -16,7 +16,7 @@
   line-height: 1.05;
   color: var(--white);
 
-  margin-bottom: 80px;
+  margin-bottom: 67px;
 }
 
 .proposal-to-leave-title .language {
@@ -40,7 +40,7 @@
   transform-origin: center bottom;
   transform-style: preserve-3d;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .outer-card::after,
@@ -55,13 +55,13 @@
 }
 
 .outer-card::after {
-  transform: rotateZ(15deg) translateZ(-1px);
+  transform: rotateZ(11deg) translateZ(-1px);
   z-index: 2;
   background: rgba(255, 255, 255, 0.5);
 }
 
 .outer-card::before {
-  transform: rotateZ(-15deg) translateZ(-1px);
+  transform: rotateZ(-9deg) translateZ(-1px);
   z-index: 1;
   background: rgba(212, 253, 225, 1);
 }

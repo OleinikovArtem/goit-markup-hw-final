@@ -7,6 +7,9 @@
 .teacher-card {
   text-align: center;
   width: 100%;
+}
+
+.teacher-card:not(:last-child) {
   margin-bottom: 40px;
 }
 
