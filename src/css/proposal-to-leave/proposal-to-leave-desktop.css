@@ -1,6 +1,10 @@
 /* Desktop styles */
 @media only screen and (min-width: 1280px) {
-.proposal-to-leave .container {
+  .proposal-to-leave {
+    padding: 64px 64px 140px;
+  }
+
+  .proposal-to-leave .container {
     max-width: 1152px;
     padding: 64px 64px 140px;
   }
