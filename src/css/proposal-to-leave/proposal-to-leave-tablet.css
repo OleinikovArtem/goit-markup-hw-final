@@ -1,7 +1,7 @@
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
   .proposal-to-leave {
-    padding: 64px 32px;
+    padding: 50px 32px;
   }
 
   .proposal-to-leave .container {
@@ -15,16 +15,16 @@
     font-size: 60px;
     line-height: 1.17;
 
-    margin-bottom: 72px;
+    margin-bottom: 82px;
   }
 
   .card {
     display: flex;
     flex-wrap: wrap;
-    padding: 64px 30px;
+    padding: 64px 33px;
 
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .outer-card {
@@ -79,8 +79,8 @@
   .card-img {
     position: absolute;
     display: block;
-    top: 170px;
-    right: -60px;
+    top: 173px;
+    right: -52px;
     width: 214px;
     height: 263px;
     background-size: cover;

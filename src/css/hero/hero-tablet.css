@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px) {
   .container:has(.hero) {
     padding-top: 32px;
+    padding-bottom: 51px;
   }
 
   .hero {

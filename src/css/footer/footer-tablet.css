@@ -1,4 +1,8 @@
 @media only screen and (min-width: 768px) {
+  .footer {
+    margin-top: 50px;
+  }  
+
   body > footer {
     font-size: 14px;
   }
@@ -19,6 +23,15 @@
     flex-direction: column;
   }
 
+  .footer-nav-list {
+    padding-left: 11px;
+    gap: 20px;
+  }
+
+  .nav-item {
+    line-height: 18px;
+  }
+
   .lower-footer {
     display: flex;
     justify-content: space-between;
@@ -33,5 +46,14 @@
 
   .lower-footer-text {
     padding-bottom: 0;
+  }
+
+  .address-link {
+    letter-spacing: 0.01em;
+  }
+
+  .footer .social-links {
+    padding-top: 0;
+    padding-right: 5px;
   }
 }
