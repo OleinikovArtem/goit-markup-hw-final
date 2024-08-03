@@ -20,13 +20,10 @@
   background-size: cover;
   
   background-image: var(--gradient), url('../../img/hero/hero-mobile.jpg');
-}
-
-
-@media only screen and (min-resolution: 192dpi) {
-  .hero {
-    background-image: var(--gradient), url('../img/hero/hero-mobile@2x.jpg');
-  }
+  background-image: var(--gradient), image-set(
+    url('../../img/hero/hero-mobile.jpg') 1x,
+    url('../../img/hero/hero-mobile@2x.jpg') 2x,
+  );
 }
 
 .hero-title {

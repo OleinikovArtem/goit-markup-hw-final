@@ -13,13 +13,11 @@
     padding: 260px 32px 295px 32px;
     border-radius: 30px;
 
-    background-image: var(--gradient), url('../../img/hero/hero-tablet.jpg');
-  }
-
-  @media only screen and (min-resolution: 192dpi) {
-    .hero {
-      background-image: var(--gradient), url('../img/hero/hero-tablet@2x.jpg');
-    }
+    background-image: var(--gradient), image-set(url('../../img/hero/hero-tablet.jpg'));
+    background-image: var(--gradient), image-set(
+      url('../../img/hero/hero-tablet.jpg') 1x,
+      url('../../img/hero/hero-tablet@2x.jpg') 2x,
+    );
   }
 
   .hero-title {
