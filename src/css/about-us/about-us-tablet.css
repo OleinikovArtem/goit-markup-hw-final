@@ -1,4 +1,8 @@
 @media only screen and (min-width: 768px) {
+  .about_us .section-text {
+    max-width: 670px;
+  }
+
   .about-list {
     flex-wrap: wrap;
 		gap: 32px;
@@ -7,9 +11,11 @@
 
   .about-item {
     width: calc(50% - 16px);
+    border-radius: 25px;
   }
 
   .about-image {
     padding: 16px 0;
+    border-radius: 30px;
   }
 }
