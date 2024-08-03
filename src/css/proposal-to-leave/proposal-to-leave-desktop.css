@@ -1,12 +1,12 @@
 /* Desktop styles */
 @media only screen and (min-width: 1280px) {
   .proposal-to-leave {
-    padding: 64px 64px 75px;
+    padding: 73px 64px 75px;
   }
 
   .proposal-to-leave .container {
     max-width: 1152px;
-    padding: 64px 64px 140px;
+    padding: 64px 64px 133px;
   }
 
   .proposal-to-leave-title {
@@ -15,7 +15,7 @@
   }
 
   .card {
-    padding: 64px;
+    padding: 70px 64px;
     margin-bottom: 0px;
   }
 
@@ -45,7 +45,7 @@
   }
 
   .card-img {
-    top: 128px;
+    top: 132px;
     right: 0px;
   }
 }

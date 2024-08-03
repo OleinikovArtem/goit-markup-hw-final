@@ -9,4 +9,8 @@
   .our-lessons-item {
     padding: 32px;
   }
+
+  .lesson-price {
+    margin-bottom: 16px;
+  }
 }

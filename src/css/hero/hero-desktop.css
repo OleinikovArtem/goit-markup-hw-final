@@ -1,6 +1,8 @@
 @media screen and (min-width: 1280px) {
   .container:has(.hero) {
-    padding-top: 16px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    max-width: 1152px;
   }
 
   .hero {
