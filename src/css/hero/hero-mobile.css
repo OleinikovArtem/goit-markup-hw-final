@@ -1,5 +1,6 @@
 .container:has(.hero) {
   padding-top: 8px;
+  padding-bottom: 40px;
 }
 
 .hero {

@@ -1,19 +1,24 @@
 .footer {
+  margin-top: 40px;
   background: var(--black);
+}
+
+.footer .social-links {
+  padding-top: 4px;
 }
 
 .upper-footer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 32px;
   align-items: flex-start;
-  padding: 20px 0;
+  padding: 20px 0 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .logo-address-wrapper > .logo {
   color: var(--white);
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -21,18 +26,18 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-bottom: 20px;
 }
 
 .footer-address {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.6px;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.6);
   opacity: 0.9;
-  padding: 4px 0;
+  padding: 8px 0;
 }
 
 .address-link {
@@ -44,11 +49,12 @@
 .footer-nav-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
 }
 
 .nav-links {
   color: var(--white);
+  line-height: 18px;
 }
 
 .footer .social-link {
@@ -68,7 +74,7 @@
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.6);
   opacity: 0.9;
-  padding-bottom: 14px;
+  padding-bottom: 10px;
 }
 
 .lower-footer-policy {

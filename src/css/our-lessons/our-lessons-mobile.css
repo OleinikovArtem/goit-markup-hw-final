@@ -18,6 +18,7 @@
   border-radius: 16px;
   border: 1px solid var(--green);
   background-color: var(--white);
+  min-height: 400px;
 }
 
 .lesson-title {
@@ -50,7 +51,7 @@
   text-align: center;
   color: var(--text-secondary);
 
-  margin-bottom: 20px;
+  margin-bottom: auto;
 }
 
 .btn.leave-an-application-btn {

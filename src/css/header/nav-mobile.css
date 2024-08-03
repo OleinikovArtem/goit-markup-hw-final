@@ -4,6 +4,10 @@
 }
 
 @media only screen and (max-width: 1279px) {
+  .nav-mobile {
+    height: 32px;
+  }
+
   .nav-mobile-open-btn {
     height: 32px;
     width: 32px;
