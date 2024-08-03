@@ -1,0 +1,34 @@
+@media screen and (min-width: 1280px) {
+  .container:has(.hero) {
+    padding-top: 16px;
+  }
+
+  .hero {
+    padding: 164px 64px;
+
+    background-image: var(--gradient), url('../../img/hero/hero-desktop.jpg');
+  }
+
+  @supports (background-image: url('../img/hero/hero-desktop.webp')) {
+    .hero {
+      background-image: var(--gradient), url('../img/hero/hero-desktop.webp');
+    }
+  }
+
+  @media only screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: var(--gradient), url('../img/hero/hero-desktop@2x.jpg');
+    }
+
+    @supports (background-image: url('../img/hero/hero-desktop@2x.webp')) {
+      .hero {
+        background-image: var(--gradient),
+          url('../img/hero/hero-desktop@2x.webp');
+      }
+    }
+  }
+
+  .hero-title {
+    max-width: 564px;
+  }
+}
