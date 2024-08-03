@@ -7,6 +7,9 @@
   .teacher-card {
     width: 100%;
     max-width: 232px;
+  }
+
+  .teacher-card:not(:last-child) {
     margin-bottom: 0;
   }
 }
