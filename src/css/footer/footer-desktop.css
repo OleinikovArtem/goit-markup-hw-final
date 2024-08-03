@@ -2,10 +2,10 @@
   .upper-footer {
     flex-direction: row;
     justify-content: space-between;
-    padding: 64px;
+    padding: 64px 0;
   }
 
   .lower-footer {
-    padding: 23px 64px;
+    padding: 23px 0;
   }
 }
