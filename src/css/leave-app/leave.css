@@ -268,9 +268,15 @@
   }
 
   .leave-radio-label::before {
-    width: 20px;
-    height: 20px;
-    top: 0;
+    top: 1px;
+    left: 1px;
+  }
+
+  .leave-radio-label::after {
+    width: 10px;
+    height: 10px;
+    top: 6px;
+    left: 6px;
   }
 
   .leave-wrapper {
@@ -319,12 +325,6 @@
 
   .teaxtarea-input {
     height: 104px;
-  }
-
-  .leave-radio-label::after {
-    width: 12px;
-    height: 12px;
-    top: 4px;
   }
 
   .leave-form-policy {
