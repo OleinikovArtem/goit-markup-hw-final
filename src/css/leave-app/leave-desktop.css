@@ -1,0 +1,33 @@
+@media screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-width: 1280px) and (min-resolution: 2dppx),
+  screen and (min-width: 1280px) {
+  .leave-card-wrapper {
+    background-image: url('../../img/leave-app/leave-app-2x.png');
+    background-size: 492px;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 40px 20px;
+    justify-content: flex-end;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: var(--green);
+    border-radius: 30px;
+    width: 492px;
+    height: 578px;
+  }
+
+  .leave-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leave-text {
+    max-width: 709px;
+  }
+
+  .leave-form {
+    margin: 0px;
+  }
+}
