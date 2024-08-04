@@ -26,7 +26,7 @@
 .about-image {
   width: 310px;
   background: var(--green);
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 51px 0;
   width: 100%;
 }

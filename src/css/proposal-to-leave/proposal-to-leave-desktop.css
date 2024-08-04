@@ -1,8 +1,12 @@
 /* Desktop styles */
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .proposal-to-leave {
-    padding: 64px 64px 140px;
-    width: 1152px;
+    padding: 73px 64px 75px;
+  }
+
+  .proposal-to-leave .container {
+    max-width: 1152px;
+    padding: 64px 64px 133px;
   }
 
   .proposal-to-leave-title {
@@ -11,34 +15,37 @@
   }
 
   .card {
-    padding: 64px;
+    padding: 70px 64px;
+    margin-bottom: 0px;
   }
 
-  .cart-description {
-    width: 654px;
+  .outer-card {
+    width: 1024px;
+    margin-bottom: 0px;
+    transform: translateX(0);
+  }
+
+  .outer-card::after {
+    transform: rotateZ(7deg) translateZ(-1px);
+  }
+
+  .outer-card::before {
+    transform: rotateZ(-7deg) translateZ(-1px);
   }
 
   .card-title {
     font-size: 40px;
-    line-height: 48px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+
+  .proposal-list {
+    width: 653px;
     margin-bottom: 40px;
   }
 
   .card-img {
-    margin: 0 0 0 auto;
-    transform: translateX(40%);
+    top: 132px;
+    right: 0px;
   }
-
-  .card-item p {
-    font-size: 20px;
-  }
-
-  .leave-app-btn {
-    padding: 16px 64px;
-    width: 306px;
-    height: 60px;
-    font-size: 18px;
-    margin-top: 40px;
-  }
-
 }

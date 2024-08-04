@@ -1,12 +1,18 @@
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
+  .footer {
+    margin-top: 75px;
+  }
   .upper-footer {
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
-    padding: 64px;
+    padding: 64px 0;
   }
 
   .lower-footer {
-    padding: 23px 64px;
+    padding: 23px 0;
+  }
+
+  .footer-nav-list {
+    padding-left: 42px;
   }
 }

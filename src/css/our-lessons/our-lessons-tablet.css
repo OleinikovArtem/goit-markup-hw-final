@@ -8,6 +8,8 @@
 
   .our-lessons-item {
     padding: 32px 16px;
+    border-radius: 30px;
+    min-height: 404px;
   }
 
   .lesson-price {

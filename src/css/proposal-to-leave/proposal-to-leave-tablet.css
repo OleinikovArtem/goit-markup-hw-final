@@ -1,35 +1,38 @@
 /* Tablet styles */
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .proposal-to-leave {
+    padding: 50px 32px;
+  }
+
+  .proposal-to-leave .container {
+    max-width: 704px;
+    border-radius: 30px;
     overflow: visible;
-    padding: 64px 20px;
+    padding: 64px 32px;
   }
 
   .proposal-to-leave-title {
     font-size: 60px;
-    line-height: 70px;
-    padding: 0 12px;
-    margin-bottom: 32px;
-  }
+    line-height: 1.17;
 
-  .card-wrapper {
-    gap: -120px;
-    margin-top: 60px;
-    width: 667px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-bottom: 82px;
   }
 
   .card {
     display: flex;
     flex-wrap: wrap;
-    padding: 64px 30px;
+    padding: 64px 33px;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 
   .outer-card {
+    width: 667px;
     border-radius: 30px;
+    margin-bottom: 30px;
+    transform: translateX(-16px);
   }
-
 
   .outer-card::after,
   .outer-card::before {
@@ -39,55 +42,45 @@
   .outer-card::after {
     transform: rotateZ(10deg) translateZ(-1px);
   }
-  
+
   .outer-card::before {
     transform: rotateZ(-10deg) translateZ(-1px);
   }
 
   .card-title {
-    width: 100%;
     font-size: 40px;
     line-height: 1.2;
     margin-bottom: 32px;
   }
 
-  .cart-description {
-    width: 451px;
+  .proposal-list {
+    width: 449px;
+    margin-bottom: 32px;
   }
 
-  .card-img {
-    display: block;
-    width: 214px;
-    height: 263px;
-    margin-right: -220px;
-    margin-top: auto;
-    transform: translateX(30px);
+  .proposal-item {
+    gap: 16px;
   }
 
-  .icon-wrapper {
-    width: 28px;
-    min-width: 28px;
-    height: 28px;
-  }
-
-  .card-item p {
+  .proposal-item-text {
     font-size: 20px;
     line-height: 1.2;
   }
 
-  .leave-app-btn {
-    padding: 16px 64px;
-    width: 306px;
-    height: 60px;
-    font-size: 18px;
-    line-height: 1.55556;
-    margin-top: 30px;
+  .proposal-item-icon-wrapper {
+    width: 28px;
+    height: 28px;
   }
 
-  .image-card {
+  .proposal-to-leave .leave-an-application-btn {
+    width: 306px;
+  }
+
+  .card-img {
     position: absolute;
-    top: 175px;
-    right: -40px;
+    display: block;
+    top: 173px;
+    right: -52px;
     width: 214px;
     height: 263px;
     background-size: cover;
@@ -95,6 +88,11 @@
     border-radius: 16px;
     background-image: url('../../img/proposal-to-leave/books-stack.png');
     z-index: 3;
-    display: block;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .card-img {
+      background-image: url('../../img/proposal-to-leave/books-stack@2x.png');
+    }
   }
 }

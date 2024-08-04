@@ -1,0 +1,18 @@
+@media screen and (min-width: 1280px) {
+  .container:has(.hero) {
+    padding-top: 21px;
+    padding-bottom: 20px;
+    max-width: 1152px;
+  }
+
+  .hero {
+    padding: 164px 64px;
+    background-image: var(--gradient), url('../../img/hero/hero-desktop.jpg');
+    background-image: var(--gradient),
+      -webkit-image-set(url('../../img/hero/hero-desktop.jpg') 1x, url('../../img/hero/hero-desktop@2x.jpg') 2x);
+  }
+
+  .hero-title {
+    max-width: 564px;
+  }
+}

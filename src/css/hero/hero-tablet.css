@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) {
+  .container:has(.hero) {
+    padding-top: 32px;
+    padding-bottom: 51px;
+  }
+
+  .hero {
+    --gradient: linear-gradient(114deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 60%);
+
+    padding: 260px 32px 295px 32px;
+    border-radius: 30px;
+
+    background-image: var(--gradient), url('../../img/hero/hero-tablet.jpg');
+    background: var(--gradient),
+      -webkit-image-set(url('../../img/hero/hero-tablet.jpg') 1x, url('../../img/hero/hero-tablet@2x.jpg') 2x);
+  }
+
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.17;
+
+    max-width: 488px;
+    margin-bottom: 32px;
+  }
+
+  .hero .btn {
+    max-width: 306px;
+  }
+
+  .link-arrow {
+    width: 48px;
+    height: 48px;
+    bottom: 32px;
+    right: 32px;
+  }
+}
