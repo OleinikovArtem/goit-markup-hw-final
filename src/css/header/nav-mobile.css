@@ -4,6 +4,13 @@
 }
 
 @media only screen and (max-width: 1279px) {
+  .header {
+    position: sticky;
+    top: 0;
+    background: var(--white);
+    z-index: 1;
+  }
+
   .nav-mobile {
     height: 32px;
   }
