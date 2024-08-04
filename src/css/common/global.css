@@ -26,8 +26,9 @@ main {
 }
 
 section {
-    padding: 40px 0;
-  }
+  scroll-margin-top: 67px;
+  padding: 40px 0;
+}
 
 button {
   background: transparent;
@@ -163,6 +164,7 @@ button {
   }
 
   section {
+    scroll-margin-top: auto;
     padding: 75px 0;
   }
 
@@ -171,6 +173,6 @@ button {
   }
 
   .section-text {
-    max-width: 728px;;
+    max-width: 728px;
   }
 }
