@@ -1,0 +1,28 @@
+@media screen and (min-width: 1280px) {
+  .leave-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leave-text {
+    max-width: 709px;
+  }
+
+  .leave-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 40px 20px;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('../../img/leave-app/leave-app-1x.png');
+    background-repeat: no-repeat;
+    background-color: var(--green);
+    border-radius: 30px;
+    width: 492px;
+    height: 578px;
+  }
+
+  .leave-form {
+    margin: 0px;
+  }
+}
