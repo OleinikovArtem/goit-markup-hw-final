@@ -14,3 +14,16 @@ $mobileNavClose.onclick = onCloseMobileNavMenu;
 $mobileNavLinks.forEach(element => {
     element.onclick = onCloseMobileNavMenu;
 });
+
+// form validation UX
+document.addEventListener('input', function(event) {
+	if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') {
+		if (event.target.checkValidity()) {
+			event.target.classList.add('valid');
+			event.target.classList.remove('invalid');
+		} else {
+			event.target.classList.add('invalid');
+			event.target.classList.remove('valid');
+		}
+	}
+});

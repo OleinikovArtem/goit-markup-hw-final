@@ -32,7 +32,7 @@
 
 .leave-form-input:not(.invalid):hover,
 .leave-form-input:not(.invalid):focus {
-  border-color: var(--green);
+  outline: 1px solid var(--accent-green);
 }
 
 .leave-form-input::placeholder {
@@ -215,7 +215,7 @@
 }
 
 .invalid {
-  border-color: var(--green);
+  border-color: red;
 }
 
 .leave-title {
