@@ -384,6 +384,7 @@
             type="text"
             name="user-name"
             placeholder="Name"
+            pattern="[A-Za-z]{3,}"
             required
           />
           <input
@@ -391,6 +392,7 @@
             type="email"
             name="user-email"
             placeholder="Email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             required
           />
           <input
@@ -398,7 +400,7 @@
             type="tel"
             name="user-phone"
             placeholder="Phone"
-            pattern="[0-9]{10}" 
+            pattern="\+?\d{10,15}"
             title="Телефон повинен містити 10 цифр."
             required
           />
